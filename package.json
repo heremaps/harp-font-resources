@@ -1,6 +1,6 @@
 {
   "name": "@here/harp-font-resources",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Font resources for harp.gl",
   "scripts": {
     "build": "tsc",
