@@ -16,6 +16,9 @@
     "name": "HERE Global B.V. and its affiliate(s)",
     "url": "https://here.com"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "Apache-2.0",
   "dependencies": {},
   "devDependencies": {
