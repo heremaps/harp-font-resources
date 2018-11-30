@@ -1,0 +1,16 @@
+language: node_js
+dist: xenial
+node_js:
+- '10'
+branches:
+  only:
+  - master
+
+deploy:
+  - provider: npm
+    email: heremaps-bot@users.noreply.github.com
+    api_key:
+      secure: pzLzkYdPKDhaixuhFSY1rszWxe1JC14nRsTP4hjEVrpqMBg2/tAQ3qeCvD/rayJIVb3fvwYDGwq+2Gqtos2F/3/Y6RXcWWkUnhGUVP0K0VUQ1QQz9O9nekgWzH6H0aHvloOLD2/KTWPLEcfqm50pLHVqw+8Zx0Lp8vROzL/Uv0E4Fzy28pDE26rQeM9AQ1MDI4nKvbpiKYbY86Wt4DrIQzKvUrafmKhXFS8Ls4YW3MLYvF1yeeXmNe7GfHdWoV0cvb9AxsbCGXDCEF1C9Lf6DWRdwFFYgufifRU9FUdCH0wkum3qrQuYEjKEb0Z+5HerOWkLfRb4sM+BKBHUrhdi758KEZqQelDR3BQDCF6tQc0X8qXEIHsE4gSHYDMkh3hXbyDa4h96doMHUcNG+ThZKmpwdY6bdGINop4QT4MDb4uD5dFyKRzPEWvMzl8eHoeZs41f5i9v364HN6mfZrp1bup6EMQ90rQ9VMImhyLMGc41m/70N3pgATS6Zv2k7zVV8osmVd9/bzkXVh/+K3AHLx1fZD6OGRjUJA/aeVGGR8Qb8ShuybFy6LopTnbyJ1rznRY8IyARwZrXozzj/euRpbv95lJsgt2ExXaP+TmhW0xAtjmNi/gqJozAEL6RWYAws/0Kf4jB/g0oMMAyzr2Mf6mbyQEqBwpEYfQUBkIy8Bc=
+    on:
+      tags: true
+      branch: master
