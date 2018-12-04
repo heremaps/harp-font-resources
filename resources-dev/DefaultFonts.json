@@ -4,7 +4,7 @@
         {
             "name": "FiraGO_Map",
             "bold": "FiraGO_MapBold",
-            "ranges": [
+            "blocks": [
                 "Basic Latin",
                 "Latin-1 Supplement",
                 "Latin Extended-A",
@@ -29,7 +29,7 @@
         },
         {
             "name": "HanSans_ExtraLight",
-            "ranges": [
+            "blocks": [
                 "Basic Latin",
                 "Latin-1 Supplement",
                 "Latin Extended-A",
@@ -74,7 +74,7 @@
         },
         {
             "name": "LohitIndic",
-            "ranges": [
+            "blocks": [
                 "Basic Latin",
                 "Latin-1 Supplement",
                 "Devanagari",
@@ -87,7 +87,7 @@
         },
         {
             "name": "LohitKanMalTamTel",
-            "ranges": [
+            "blocks": [
                 "Basic Latin",
                 "Latin-1 Supplement",
                 "Devanagari",
@@ -100,7 +100,7 @@
         {
             "name": "NanumGothic_Regular",
             "bold": "NanumGothic_Bold",
-            "ranges": [
+            "blocks": [
                 "Basic Latin",
                 "Latin-1 Supplement",
                 "Latin Extended-A",
@@ -132,7 +132,7 @@
         },
         {
             "name": "SignTextNarrow_Bold",
-            "ranges": [
+            "blocks": [
                 "Basic Latin",
                 "Latin-1 Supplement",
                 "Latin Extended-A",

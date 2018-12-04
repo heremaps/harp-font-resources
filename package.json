@@ -1,10 +1,10 @@
 {
   "name": "@here/harp-font-resources",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Font resources for harp.gl",
   "scripts": {
     "test": "cross-env ts-mocha $EXTRA_MOCHA_ARGS ./test/*.ts",
-    "prepack": "node ./scripts/create-font-catalog.js -n Default -f ../resources-dev/DefaultFonts.json"
+    "prepack": "ts-node ./scripts/create-font-catalog.ts -n Default -f ../resources-dev/DefaultFonts.json -s 32 -t msdf -d 8 && ts-node ./scripts/create-font-catalog.ts -n Default_Narrow -f ../resources-dev/DefaultFonts.json -s 32 -t msdf -d 4 && ts-node ./scripts/create-font-catalog.ts -n Default_Wide -f ../resources-dev/DefaultFonts.json -s 32 -t msdf -d 16"
   },
   "repository": {
     "type": "git",
