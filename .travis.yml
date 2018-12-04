@@ -3,8 +3,7 @@ dist: xenial
 node_js:
 - '10'
 branches:
-  only:
-  - master
+  if: tag IS present OR branch = master
 
 deploy:
   - provider: npm
