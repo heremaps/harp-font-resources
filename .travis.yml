@@ -3,7 +3,9 @@ dist: xenial
 node_js:
 - '10'
 branches:
-  if: tag IS present OR branch = master
+  only:
+  - master
+  - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
 
 deploy:
   - provider: npm
