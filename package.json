@@ -4,7 +4,7 @@
   "description": "Font resources for harp.gl",
   "scripts": {
     "test": "cross-env ts-mocha $EXTRA_MOCHA_ARGS ./test/*.ts",
-    "prepack": "ts-node ./scripts/create-font-catalog.ts -n Default -f ../resources-dev/DefaultFonts.json -s 32 -t msdf -d 8"
+    "prepack": "ts-node ./scripts/create-font-catalog.ts -i ./resources-dev/DefaultFonts.json -o ./resources"
   },
   "repository": {
     "type": "git",
