@@ -1,4 +1,4 @@
-# @here/harp-font-resources
+# @here/harp-font-resources [![Build Status](https://travis-ci.com/heremaps/harp-font-resources.svg?token=XqJjRxFbW25Pc73LNRB9&branch=master)](https://travis-ci.com/heremaps/harp-font-resources)
 
 This module contains a font catalog for use in the harp.gl renderer
 
