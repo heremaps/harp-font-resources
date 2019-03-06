@@ -1,0 +1,15 @@
+{
+    "name": "Test",
+    "size": 32,
+    "distance": 8,
+    "type": "msdf",
+    "fontsDir": "../Fonts",
+    "fonts": [
+        {
+            "name": "FiraGO_Map",
+            "blocks": [
+                "Basic Latin"
+            ]
+        }
+    ]
+}

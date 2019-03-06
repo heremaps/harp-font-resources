@@ -1,6 +1,6 @@
 /**
  * Script designed to generate the TextCanvas' FontCatalog assets.
- * Usage: npm run create-font-catalog -- -n <name> -f <file> -s <size> -t <type> -d <distance>
+ * Usage: yarn create-font-catalog -- -i <inputFile> -o <outputDir>
  */
 
 // tslint:disable

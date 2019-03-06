@@ -6,4 +6,5 @@ doc
 *.js
 *.js.map
 resources
+test/resources
 output
