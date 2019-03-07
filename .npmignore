@@ -1,0 +1,8 @@
+*.ts
+!*.d.ts
+test/
+scripts/
+tsconfig.json
+.gitignore
+.gitreview
+resources-dev

@@ -1,0 +1,39 @@
+{
+  "name": "@here/harp-font-resources",
+  "version": "0.2.2",
+  "description": "Font resources for harp.gl",
+  "scripts": {
+    "test": "ts-node ./scripts/create-font-catalog.ts -i ./resources-dev/TestFonts.json -o ./test/resources && cross-env ts-mocha $EXTRA_MOCHA_ARGS ./test/*.ts",
+    "create-font-catalog": "ts-node ./scripts/create-font-catalog.ts",
+    "prepack": "ts-node ./scripts/create-font-catalog.ts -i ./resources-dev/DefaultFonts.json -o ./resources"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:heremaps/harp-font-resources.git"
+  },
+  "author": {
+    "name": "HERE Europe B.V.",
+    "url": "https://here.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "(Apache-2.0 AND (Apache-2.0 OR OFL-1.1 OR GPL-2.0-only WITH Font exception 2.0))",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.12",
+    "chai": "^4.0.2",
+    "cross-env": "^5.2.0",
+    "fontkit": "^1.7.7",
+    "minimist": "^1.2.0",
+    "mkpath": "^1.0.0",
+    "mocha": "^5.2.0",
+    "msdf-bmfont-xml": "^2.3.5",
+    "ts-mocha": "^2.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1",
+    "unicode-range-json": "^1.0.1"
+  }
+}
