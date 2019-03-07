@@ -35,4 +35,4 @@ Copyright (C) 2018-2019 HERE Europe B.V.
 
 See the [LICENSE](./LICENSE) file in the root of this project for license details.
 
-In addition, see the individual font licenses: [resources-dev/fonts/README.md](resources-dev/fonts/README.md)
+Please note that the individual fonts are under different licenses: [resources-dev/fonts/README.md](resources-dev/fonts/README.md)
