@@ -1,6 +1,6 @@
 {
   "name": "@here/harp-font-resources",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Font resources for harp.gl",
   "scripts": {
     "test": "ts-node ./scripts/create-font-catalog.ts -i ./resources-dev/TestFonts.json -o ./test/resources && cross-env ts-mocha $EXTRA_MOCHA_ARGS ./test/*.ts",
