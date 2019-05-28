@@ -1,5 +1,7 @@
 # @here/harp-font-resources [![Build Status](https://travis-ci.com/heremaps/harp-font-resources.svg?branch=master)](https://travis-ci.com/heremaps/harp-font-resources)
 
+This repo is __DEPRECATED__, please use [fontcatalog](https://github.com/heremaps/harp-fontcatalog) instead.
+
 This module contains a font catalog to be used in the `harp.gl` renderer.
 
 For information about coding style or contributing, please refer to the information main project [harp.gl](https://github.com/heremaps/harp.gl).
